@@ -18,6 +18,7 @@ void naive_irq_entry();
 void vbar_el1_logger_entry();
 void el1_irq_entry();
 void el0_irq_entry();
+vodi el0_sync_entry();
 
 void enable_interrupt();
 void disable_interrupt();
